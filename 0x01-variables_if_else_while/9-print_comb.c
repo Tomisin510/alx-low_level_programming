@@ -14,7 +14,8 @@ int d = 0;
 		putchar(d + '0');
 		if (d < 9)
 		{
-			putchar(' ,');
+			putchar(',');
+			putchar(' ');
 		}
 		d++;
 	}
