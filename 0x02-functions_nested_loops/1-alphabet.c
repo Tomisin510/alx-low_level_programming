@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- * Description: a function that prints the alphabet in lowercase
+ * main - check the cod
+ *
  * Return: Always 0.
  */
 int main(void)
-{
-char x;
+{ar x;
 for (x = 'a'; x <= 'z'; x++)
 {
 _putchar("x");
