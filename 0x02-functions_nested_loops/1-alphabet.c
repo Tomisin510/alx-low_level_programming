@@ -1,17 +1,17 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
-*print_alphabet - a function that prints the alphabet in lowercase.
-*
-*Return: Always 0.
-*/
-void print_alphabet(void)
+ * main - check the code for Holberton School students.
+ * Description: a function that prints the alphabet in lowercase
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int i;
-
-	for (i = 'a'; i <= 'z'; i++)
-
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+char x;
+for (x = 'a'; x <= 'z'; x++)
+{
+_putchar("x");
+_putchar("\n");
+}
+	return (0);
 }
