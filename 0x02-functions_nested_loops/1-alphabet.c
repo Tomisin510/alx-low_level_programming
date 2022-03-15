@@ -1,10 +1,10 @@
-#include "_putchar.c.h"
+#include "main.h"
 /**
+*main - main function
 *print_alphabet - a function that prints the alphabet in lowercase.
-*
 *Return: Always 0.
 */
-void print_alphabet(void)
+int main(void)
 {
 	int i;
 
