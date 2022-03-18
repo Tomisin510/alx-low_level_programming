@@ -10,9 +10,9 @@ void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
 
 /*Converts day of month to day od year, without accounting*/
-int convert_day(int, int);
+int convert_day(int month, int day);
 
 /*Takes a date and prints how many days are*/
-void print_remaining_days(int, int, int);
+void print_remaining_days(int month, int day, int year);
 
 #endif /* MAIN_H */
